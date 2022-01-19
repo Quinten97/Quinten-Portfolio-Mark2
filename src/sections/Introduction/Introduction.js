@@ -1,16 +1,24 @@
 import "./Introduction.css";
 import TypeWriter from "react-typewriter";
+import profile from "./profile.png";
 
 const Introduction = () => (
   <section id="intro">
     <div>
       {/* TODO: Give this a big & strong look */}
       <strong>
-        Hi! my name is
-        {/* TODO: Give the name some swag */}
-        <span className="name">
-          <p className="first">Quinten</p> <p className="last">Favorite</p>
-        </span>
+        <img
+          className="head-picture"
+          src={profile}
+          alt="A graphic of my facial profile"
+        ></img>
+        <div className="heading-container">
+          Hi! my name is
+          {/* TODO: Give the name some swag */}
+          <span className="name">
+            <p className="first">Quinten</p> <p className="last">Favorite</p>
+          </span>
+        </div>
       </strong>
       <br />
       <p className="type-writer">

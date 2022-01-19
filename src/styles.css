@@ -11,9 +11,8 @@ html {
 }
 
 body {
-  margin: 0;
-  text-align: left;
-  font-size: 126%;
+  text-align: justify;
+  font-size: 125%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -31,13 +30,26 @@ section {
 }
 strong {
   display: grid;
-  place-items: center;
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
+  place-items: center;
   font-weight: bolder;
+}
+
+.head-picture {
+  width: 5rem;
+  margin: 0;
+}
+
+.heading-container {
+  display: grid;
+  place-items: center;
+  grid-gap: 1.5rem;
 }
 
 p {
   display: grid;
+  place-items: center;
 }
 
 .buttons-container {
@@ -93,9 +105,15 @@ a:hover {
   background: rgba(130, 50, 210, 0.1);
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 650px) {
+  .App {
+    display: grid;
+    place-items: center;
+  }
+
   body {
-    font-size: 150%;
+    border: 1px solid red;
+    font-size: 3vh;
   }
 
   span {
@@ -103,9 +121,9 @@ a:hover {
   }
 
   section {
-    margin: auto;
     margin-top: 5%;
-    width: 50%;
+    padding: 0 5rem;
+    margin: 0 25%;
   }
 
   .primary {
@@ -115,5 +133,22 @@ a:hover {
 
   .secondary {
     width: 10rem;
+  }
+
+  strong {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  .head-picture {
+    width: 8rem;
+    margin: 0;
+  }
+
+  .heading-container {
+    display: grid;
+    place-items: center;
+    grid-gap: 1.5rem;
+    margin-right: 4rem;
   }
 }
