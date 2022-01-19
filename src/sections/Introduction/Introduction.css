@@ -1,1 +1,22 @@
 /* Introduction */
+
+.name {
+  width: 100%;
+  text-align: center;
+  line-height: 1.1;
+  margin-left: 0.5rem;
+  font-size: 300%;
+  font-family: "Satisfy", cursive;
+  background: rgb(130, 50, 210);
+  background: -webkit-linear-gradient(rgb(160, 50, 210), rgb(120, 50, 210));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.last {
+  margin-left: 2rem;
+}
+
+.type-writer {
+  height: 10rem;
+}
