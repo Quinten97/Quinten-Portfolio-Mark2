@@ -22,7 +22,7 @@ const Introduction = () => (
       </strong>
       <br />
       <p className="type-writer">
-        <TypeWriter typing={1}>
+        <TypeWriter typing={1.1}>
           I am a software developer based in Atlanta, Georgia. I love building
           software using cutting-edge technologies and with best practices and
           paradigms in the fore-front.
