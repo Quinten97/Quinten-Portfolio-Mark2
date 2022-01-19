@@ -25,7 +25,6 @@ section {
   place-items: center;
   height: 100vh;
   padding: 1rem;
-  border-bottom: 1px solid #ddd;
   min-height: max-content;
 }
 strong {
