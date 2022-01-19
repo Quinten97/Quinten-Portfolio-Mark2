@@ -7,7 +7,9 @@ const Introduction = () => (
       <strong>
         Hi! my name is
         {/* TODO: Give the name some swag */}
-        <span> Quinten Favorite</span>
+        <span>
+          Quinten <br /> <p className="last-name">Favorite</p>
+        </span>
       </strong>
       <br />I am a software developer based in Atlanta, Georgia. I love building
       software using cutting-edge technologies and with best practices and

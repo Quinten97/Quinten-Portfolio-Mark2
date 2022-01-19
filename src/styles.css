@@ -1,4 +1,6 @@
 /* Global */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap");
+
 :root {
   --black-fogra: #0a100d;
   --sage: #767760;
@@ -29,11 +31,20 @@ section {
   border-bottom: 1px solid #ddd;
 }
 strong {
+  display: grid;
+  place-items: left;
+  grid-gap: 1rem;
   font-weight: bolder;
 }
 
 span {
-  font-size: 2.5rem;
+  margin-left: 1rem;
+  font-size: 3.23rem;
+  font-family: "Satisfy", cursive;
+}
+
+.last-name {
+  margin-left: 2rem;
 }
 
 p {
@@ -41,21 +52,22 @@ p {
 }
 
 .buttons-container {
-  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
   margin: 2.5%;
   margin-top: 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
+  font-size: 1rem;
 }
 
 .primary {
   display: flex;
   align-items: center;
   border: none;
-  padding: 1.7rem;
-  border-radius: 5%;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
   height: 3.5rem;
   color: white;
   background: var(--black-fogra);
@@ -68,7 +80,7 @@ p {
   align-items: center;
   border: 1px solid var(--black-fogra);
   padding: 1.7rem;
-  border-radius: 5%;
+  border-radius: 0.5rem;
   height: 2rem;
   color: white;
   background: var(--sage);
