@@ -1,7 +1,7 @@
 /* Global */
 :root {
   --black-fogra: #0a100d;
-  --sage: #b9baa3;
+  --sage: #767760;
 }
 
 html {
@@ -22,9 +22,8 @@ body {
   margin: 0;
 }
 section {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
   height: 100vh;
   padding: 1rem;
   border-bottom: 1px solid #ddd;
@@ -42,27 +41,26 @@ p {
 }
 
 .buttons-container {
+  font-weight: bold;
   text-align: center;
   margin: 2.5%;
   margin-top: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 .primary {
-  margin: 4%;
   display: flex;
   align-items: center;
   border: none;
   padding: 1.7rem;
   border-radius: 5%;
-  height: 3rem;
+  height: 3.5rem;
   color: white;
   background: var(--black-fogra);
   text-decoration: none;
-  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2rem);
 }
 
 .secondary {
@@ -71,11 +69,11 @@ p {
   border: 1px solid var(--black-fogra);
   padding: 1.7rem;
   border-radius: 5%;
-  height: 3rem;
+  height: 2rem;
   color: white;
   background: var(--sage);
   text-decoration: none;
-  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2rem);
 }
 
 @media only screen and (min-width: 1024px) {
