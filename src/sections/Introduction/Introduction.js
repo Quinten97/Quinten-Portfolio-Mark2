@@ -6,7 +6,7 @@ const Introduction = () => (
   <section id="intro">
     <div>
       {/* TODO: Give this a big & strong look */}
-      <strong>
+      <div className="intro-container">
         <img
           className="head-picture"
           src={profile}
@@ -19,7 +19,7 @@ const Introduction = () => (
             <p className="first">Quinten</p> <p className="last">Favorite</p>
           </span>
         </div>
-      </strong>
+      </div>
       <br />
       <p className="type-writer">
         <TypeWriter typing={1.1}>
