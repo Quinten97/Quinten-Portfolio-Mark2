@@ -1,11 +1,6 @@
 /* Global */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap");
 
-:root {
-  --black-fogra: #0a100d;
-  --sage: #767760;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -69,7 +64,6 @@ p {
   border-radius: 0.5rem;
   width: 8rem;
   color: white;
-  /* background: var(--black-fogra); */
   text-decoration: none;
   box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2rem);
   background: rgb(130, 50, 210);
@@ -87,7 +81,6 @@ p {
   border-radius: 0.5rem;
   width: 8rem;
   color: white;
-  /* background: var(--sage); */
   text-decoration: none;
   box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2rem);
   color: rgb(130, 50, 210);
@@ -104,7 +97,7 @@ a:hover {
   background: rgba(130, 50, 210, 0.1);
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 1024px) {
   .App {
     display: grid;
     place-items: center;
