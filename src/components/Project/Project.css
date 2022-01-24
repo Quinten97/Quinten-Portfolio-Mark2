@@ -2,19 +2,21 @@ article {
   text-align: left;
   font-size: 1.5vh;
   display: grid;
-  place-items: center left;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem 0rem;
+  place-items: left;
+  grid-gap: 1.5rem;
+  padding: 2rem 2rem;
+  margin: 1rem 0rem;
   color: white;
   border-radius: 0.5rem;
-  background: rgb(130, 50, 210);
-  background: -webkit-linear-gradient(rgb(160, 50, 210), rgb(120, 50, 210));
+  background: #141c3a;
+  background: linear-gradient(270deg, #141c3a 0%, rgba(120, 50, 210, 1) 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 img {
-  width: 5rem;
+  width: 4rem;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+  border-radius: 0.25rem;
 }
 
 a {
@@ -22,8 +24,69 @@ a {
   text-decoration: none;
 }
 
+.button-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  grid-gap: 1rem;
+}
+
+.source-button {
+  font-weight: bolder;
+  color: white;
+  border-radius: 0.75rem;
+  display: grid;
+  place-items: center;
+  height: 2.5rem;
+  width: 5rem;
+  background: rgb(130, 50, 210);
+  background: -webkit-linear-gradient(rgb(160, 50, 210), rgb(120, 50, 210));
+}
+
+.demo-button {
+  font-weight: bolder;
+  color: white;
+  border-radius: 0.75rem;
+  display: grid;
+  place-items: center;
+  height: 2.5rem;
+  width: 5rem;
+  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.2rem);
+  color: rgb(130, 50, 210);
+  border: 3px solid rgb(130, 50, 210);
+  background: white;
+}
+
 @media only screen and (min-width: 1024px) {
   article {
     font-size: 2.5vh;
+  }
+
+  .source-button {
+    height: 4rem;
+    width: 10rem;
+  }
+
+  .demo-button {
+    height: 4rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .button-container {
+    margin-top: 3rem;
+  }
+
+  .source-button {
+    height: 4rem;
+    width: 12rem;
+  }
+
+  .demo-button {
+    height: 4rem;
+    width: 12rem;
   }
 }
