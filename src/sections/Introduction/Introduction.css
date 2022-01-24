@@ -81,3 +81,22 @@ section {
     opacity: 1;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .intro-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  .head-picture {
+    width: 8rem;
+    margin: 0;
+  }
+
+  .heading-container {
+    display: grid;
+    place-items: center;
+    grid-gap: 1.5rem;
+    margin-right: 4rem;
+  }
+}
