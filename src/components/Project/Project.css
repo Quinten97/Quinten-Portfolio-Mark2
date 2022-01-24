@@ -1,0 +1,29 @@
+article {
+  text-align: left;
+  font-size: 1.5vh;
+  display: grid;
+  place-items: center left;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0rem;
+  color: white;
+  border-radius: 0.5rem;
+  background: rgb(130, 50, 210);
+  background: -webkit-linear-gradient(rgb(160, 50, 210), rgb(120, 50, 210));
+}
+
+img {
+  width: 5rem;
+}
+
+a {
+  color: #010409;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  article {
+    font-size: 2.5vh;
+  }
+}

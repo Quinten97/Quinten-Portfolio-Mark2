@@ -1,5 +1,8 @@
 /* Introduction */
 
+#intro {
+}
+
 section {
   margin-bottom: 8rem;
 }
@@ -16,7 +19,7 @@ section {
   width: 100%;
   text-align: center;
   line-height: 1.1;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   font-size: 300%;
   font-family: "Satisfy", cursive;
   background: rgb(130, 50, 210);

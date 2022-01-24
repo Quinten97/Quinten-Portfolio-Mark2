@@ -5,6 +5,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.App {
+  display: grid;
+  grid-gap: 10rem;
+}
+
 body {
   text-align: justify;
   font-size: clamp(1rem, 2.5vw, 2rem);
@@ -25,7 +30,7 @@ section {
 .intro-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  margin-top: 2rem;
   place-items: center;
   font-weight: bolder;
 }
@@ -109,6 +114,7 @@ a:hover {
 
   span {
     font-size: 145%;
+    height: 120%;
   }
 
   section {
@@ -118,12 +124,20 @@ a:hover {
     margin: 0 25%;
   }
 
+  .intro-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .primary {
     width: 10rem;
     height: 4rem;
   }
 
   .secondary {
+    width: 10rem;
+  }
+
+  .head-picture {
     width: 10rem;
   }
 }
