@@ -31,10 +31,10 @@ const Introduction = () => (
     </div>
     {/* TODO: make them pretty */}
     <div className="buttons-container">
-      <a href="#portfolio" className="primary">
+      <a href="#portfolio" className=" btn primary">
         My Portfolio
       </a>
-      <a href="#contact" className="secondary">
+      <a href="#contact" className=" btn secondary">
         Contact Me
       </a>
     </div>

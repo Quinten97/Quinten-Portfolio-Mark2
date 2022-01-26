@@ -7,10 +7,10 @@ const Project = ({ title, img, description, preview, repo }) => (
     <p>{title}</p>
     <p>{description}</p>
     <div className="button-container">
-      <a className="source-button" href={repo} target="_blank">
-        👁 View Source
+      <a className="btn primary" href={repo} target="_blank">
+        👁 Source
       </a>
-      <a className="demo-button" href={preview} target="_blank">
+      <a className="btn secondary" href={preview} target="_blank">
         Demo
       </a>
     </div>

@@ -15,11 +15,14 @@ section {
   animation: fadein 2s;
 }
 
+.head-picture {
+  margin-bottom: 2rem;
+}
+
 .name {
   width: 100%;
   text-align: center;
   line-height: 1.1;
-  margin-left: 1rem;
   font-size: 300%;
   font-family: "Satisfy", cursive;
   background: rgb(130, 50, 210);
@@ -33,7 +36,9 @@ section {
 }
 
 .type-writer {
+  font-size: clamp(1rem, 2vw, 2rem);
   height: 10rem;
+  text-align: left;
 }
 
 @keyframes fadein {
@@ -92,8 +97,13 @@ section {
   }
 
   .head-picture {
-    width: 8rem;
+    width: 15rem;
     margin: 0;
+  }
+
+  .name {
+    margin-top: 4rem;
+    margin-left: 1rem;
   }
 
   .heading-container {
