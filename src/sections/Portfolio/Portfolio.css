@@ -7,14 +7,13 @@ h1 {
 #portfolio {
   display: grid;
   grid-gap: 2rem;
-  height: 110%;
+  height: 100%;
   width: 100%;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(159, 159, 159, 1) 80%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(20, 28, 58, 1) 100%
   );
 }
 

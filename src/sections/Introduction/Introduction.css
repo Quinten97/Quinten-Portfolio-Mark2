@@ -1,10 +1,8 @@
 /* Introduction */
 
 #intro {
-}
-
-section {
-  margin-bottom: 8rem;
+  height: 100%;
+  width: 100%;
 }
 
 .intro-container {
