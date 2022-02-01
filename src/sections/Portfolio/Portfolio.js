@@ -8,7 +8,7 @@ import clicker from "./thumbnail-photos/SpaceClickerThumb.JPG";
 const Portfolio = () => (
   <section id="portfolio">
     <h1>Portfolio</h1>
-    <p>
+    <p className="paragraph">
       Here are some of my personal projects that I would like to show you. If
       you have any questions, feel free to contact me and I'd be delighted to
       provide additional information.

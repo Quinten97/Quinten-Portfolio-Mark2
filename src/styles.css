@@ -34,30 +34,18 @@ section {
   margin: 0;
 }
 
-.heading-container {
-  display: grid;
-  place-items: center;
-  grid-gap: 1.5rem;
-}
-
-p {
-  display: grid;
-  place-items: center;
-}
-
 .buttons-container {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
-  margin: 15%;
+  margin: 5vh auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.5rem;
-  font-size: 1rem;
+  font-size: clamp(1rem, 1vw, 1rem);
 }
 
 .btn {
-  font-size: clamp(1rem, 1vw, 1rem);
   display: grid;
   place-items: center;
   padding: 0.5rem 1rem;
@@ -106,10 +94,6 @@ a:hover {
     font-size: 145%;
   }
 
-  .intro-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .primary {
     width: 10rem;
     height: 4rem;
@@ -124,8 +108,12 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1450px) {
   .head-picture {
     width: 15rem;
+  }
+
+  .buttons-container {
+    margin: 15vh auto;
   }
 }

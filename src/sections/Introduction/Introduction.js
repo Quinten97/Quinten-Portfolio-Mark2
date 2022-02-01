@@ -7,14 +7,14 @@ const Introduction = () => (
     <div>
       {/* TODO: Give this a big & strong look */}
       <div className="intro-container">
-        <img
-          className="head-picture"
-          src={profile}
-          alt="A graphic of my facial profile"
-        ></img>
-        <div className="heading-container">
-          Hi! my name is
-          {/* TODO: Give the name some swag */}
+        <div className="greeting">Hi! my name is</div>
+        {/* TODO: Give the name some swag */}
+        <div className="logo-container">
+          <img
+            className="head-picture"
+            src={profile}
+            alt="A graphic of my facial profile"
+          ></img>
           <span className="name">
             <p className="first">Quinten</p> <p className="last">Favorite</p>
           </span>

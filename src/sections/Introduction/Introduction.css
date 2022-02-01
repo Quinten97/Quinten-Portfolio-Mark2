@@ -6,6 +6,9 @@
 }
 
 .intro-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
@@ -13,15 +16,22 @@
   animation: fadein 2s;
 }
 
+.logo-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
 .head-picture {
-  margin-bottom: 2rem;
+  width: 25vw;
 }
 
 .name {
-  width: 100%;
-  text-align: center;
+  text-align: left;
   line-height: 1.1;
-  font-size: 300%;
+  font-size: 20vw;
   font-family: "Satisfy", cursive;
   background: rgb(130, 50, 210);
   background: -webkit-linear-gradient(rgb(160, 50, 210), rgb(120, 50, 210));
@@ -30,12 +40,15 @@
 }
 
 .last {
-  margin-left: 2rem;
+  width: 100%;
+  margin-left: 0.5rem;
 }
 
 .type-writer {
   font-size: clamp(1rem, 2vw, 2rem);
   height: 10rem;
+  width: 75vw;
+  margin: auto;
   text-align: left;
 }
 
@@ -90,24 +103,29 @@
 
 @media only screen and (min-width: 1024px) {
   .intro-container {
+    margin: auto;
+    width: 50%;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .logo-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
   }
 
   .head-picture {
-    width: 15rem;
+    width: 15vw;
     margin: 0;
   }
 
   .name {
-    margin-top: 4rem;
-    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 6vw;
   }
 
-  .heading-container {
-    display: grid;
-    place-items: center;
-    grid-gap: 1.5rem;
-    margin-right: 4rem;
+  .type-writer {
+    margin: auto;
+    height: 18rem;
   }
 }
