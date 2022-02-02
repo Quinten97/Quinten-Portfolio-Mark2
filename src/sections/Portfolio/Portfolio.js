@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-import Project from "/src/components/Project/Project.js";
+import Project from "./components/Project/Project.js";
 import heatmap from "./thumbnail-photos/HeatmapThumb.JPG";
 import joke from "./thumbnail-photos/JokeThumb.JPG";
 import counter from "./thumbnail-photos/MTGCounterThumb.JPG";
