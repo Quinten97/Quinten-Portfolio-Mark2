@@ -17,28 +17,28 @@ const Portfolio = () => (
     <div className="projects-container">
       <Project
         title="Spaceship Clicker"
-        img={clicker}
+        img="https://i.imgur.com/PIPIUME.jpg"
         description="an idle clicker game programmed in React."
         preview="https://rocketship-clicker.netlify.app/"
         repo=""
       />
       <Project
         title="Get a Joke!"
-        img={joke}
+        img="https://i.imgur.com/0RAWzfi.jpg"
         description="A simple app that generates a joke from an API"
         preview="https://get-joke.netlify.app/"
         repo=""
       />
       <Project
         title="Two Player Point Tracker"
-        img={counter}
+        img="https://i.imgur.com/occJaZZ.jpg"
         description="A two player point tracker"
         preview="https://magiccounter.netlify.app/"
         repo=""
       />
       <Project
         title="Monthly Global Land-Surface Temp"
-        img={heatmap}
+        img="https://i.imgur.com/w3pPcd8.jpg"
         description="A heatmap made with d3.js"
         preview="https://codepen.io/Quinten97/full/oNemdmy"
         repo=""
