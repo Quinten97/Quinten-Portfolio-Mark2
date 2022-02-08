@@ -25,7 +25,6 @@ section {
 .intro-container {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 2rem;
   place-items: center;
   font-weight: bolder;
 }

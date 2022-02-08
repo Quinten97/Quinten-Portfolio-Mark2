@@ -31,6 +31,11 @@ a {
   grid-gap: 1rem;
 }
 
+.secondary-variant {
+  color: rgb(185, 125, 255);
+  border: 3px solid rgb(185, 125, 255);
+}
+
 @media only screen and (min-width: 1024px) {
   article {
     font-size: 2.5vh;

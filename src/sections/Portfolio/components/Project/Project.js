@@ -10,7 +10,7 @@ const Project = ({ title, img, description, preview, repo }) => (
       <a className="btn primary" href={repo} target="_blank">
         👁 Source
       </a>
-      <a className="btn secondary" href={preview} target="_blank">
+      <a className="btn secondary-variant" href={preview} target="_blank">
         Demo
       </a>
     </div>
