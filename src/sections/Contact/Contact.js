@@ -14,6 +14,12 @@ const Contact = () => (
       <a className="anchor" href="quinten.favorite@outlook.com">
         quinten.favorite@outlook.com
       </a>
+      <a className="anchor" href="https://github.com/Quinten97">
+        Github
+      </a>
+      <a className="anchor" href="https://www.linkedin.com/in/quintenfavorite/">
+        Linkedin
+      </a>
     </div>
   </section>
 );

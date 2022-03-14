@@ -23,11 +23,11 @@ const Portfolio = () => (
         repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
       />
       <Project
-        title="Get a Joke!"
+        title="Helpdesk Ticketing API"
         img="https://i.imgur.com/0RAWzfi.jpg"
-        description="A simple app that generates a joke from an API"
-        preview="https://get-joke.netlify.app/"
-        repo="https://github.com/Quinten97/Quintens-Joke-Generator"
+        description="A simple API for helpdesk"
+        preview="coming soon"
+        repo="https://github.com/Quinten97/Ticketing-System-API"
       />
       <Project
         title="Two Player Point Tracker"
