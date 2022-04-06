@@ -1,9 +1,5 @@
 import "./Portfolio.css";
 import Project from "./components/Project/Project.js";
-import heatmap from "./thumbnail-photos/HeatmapThumb.JPG";
-import joke from "./thumbnail-photos/JokeThumb.JPG";
-import counter from "./thumbnail-photos/MTGCounterThumb.JPG";
-import clicker from "./thumbnail-photos/SpaceClickerThumb.JPG";
 
 const Portfolio = () => (
   <section id="portfolio">
@@ -24,9 +20,9 @@ const Portfolio = () => (
       />
       <Project
         title="Helpdesk Ticketing API"
-        img="https://i.imgur.com/0RAWzfi.jpg"
+        img="https://i.imgur.com/FNOs1xC.png"
         description="A simple API for helpdesk"
-        preview="coming soon"
+        preview="https://favoritecomputertech.netlify.app/"
         repo="https://github.com/Quinten97/Ticketing-System-API"
       />
       <Project
