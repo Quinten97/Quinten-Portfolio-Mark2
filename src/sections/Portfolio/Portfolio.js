@@ -12,11 +12,18 @@ const Portfolio = () => (
     {/* Show a project component below */}
     <div className="projects-container">
       <Project
-        title="Spaceship Clicker"
-        img="https://i.imgur.com/PIPIUME.jpg"
-        description="an idle clicker game programmed in React."
-        preview="https://rocketship-clicker.netlify.app/"
-        repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
+        title="Tiny Components"
+        img="https://user-images.githubusercontent.com/89324378/236610468-bd1a7c41-3540-44ee-829c-a3b848dfc56f.svg"
+        description="A journey of could I not should I."
+        preview="https://github.com/Quinten97/TinyComponents"
+        repo="https://github.com/Quinten97/TinyComponents"
+      />
+      <Project
+        title="Monthly Global Land-Surface Temp"
+        img="https://i.imgur.com/w3pPcd8.jpg"
+        description="A heatmap made with d3.js"
+        preview="https://codepen.io/Quinten97/full/oNemdmy"
+        repo="https://github.com/Quinten97/D3-Heatmap-FCCProject"
       />
       <Project
         title="Helpdesk Ticketing API"
@@ -26,18 +33,11 @@ const Portfolio = () => (
         repo="https://github.com/Quinten97/Ticketing-System-API"
       />
       <Project
-        title="Two Player Point Tracker"
-        img="https://i.imgur.com/occJaZZ.jpg"
-        description="A two player point tracker"
-        preview="https://magiccounter.netlify.app/"
-        repo="https://github.com/Quinten97/magic-counter"
-      />
-      <Project
-        title="Monthly Global Land-Surface Temp"
-        img="https://i.imgur.com/w3pPcd8.jpg"
-        description="A heatmap made with d3.js"
-        preview="https://codepen.io/Quinten97/full/oNemdmy"
-        repo="https://github.com/Quinten97/D3-Heatmap-FCCProject"
+        title="Spaceship Clicker"
+        img="https://i.imgur.com/PIPIUME.jpg"
+        description="An idle clicker game programmed in React."
+        preview="https://rocketship-clicker.netlify.app/"
+        repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
       />
     </div>
   </section>
