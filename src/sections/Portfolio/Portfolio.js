@@ -15,7 +15,7 @@ const Portfolio = () => (
         title="Tiny Components"
         img="https://user-images.githubusercontent.com/89324378/236610468-bd1a7c41-3540-44ee-829c-a3b848dfc56f.svg"
         description="A journey of could I not should I."
-        preview="https://github.com/Quinten97/TinyComponents"
+        preview="https://tinycomponents.netlify.app/"
         repo="https://github.com/Quinten97/TinyComponents"
       />
       <Project
