@@ -34,14 +34,14 @@ const Portfolio = () => (
       />
       <Project
         title="Simple Chat"
-        img="https://imgur.com/4PCSpJj"
+        img="https://i.imgur.com/4PCSpJj.png"
         description="A simple chat application."
         preview="https://simplechat.adaptable.app/"
         repo="https://github.com/Quinten97/Chat-app"
       />
       <Project
         title="Spaceship Clicker"
-        img="https://imgur.com/PIPIUME"
+        img="https://i.imgur.com/PIPIUME.jpg"
         description="An idle clicker game programmed in React."
         preview="https://rocketship-clicker.netlify.app/"
         repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
