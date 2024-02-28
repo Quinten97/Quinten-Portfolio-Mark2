@@ -34,7 +34,7 @@ const Portfolio = () => (
       />
       <Project
         title="Simple Chat"
-        img="https://imgur.com/a/YPQOUEE"
+        img="https://imgur.com/4PCSpJj"
         description="A simple chat application."
         preview="https://simplechat.adaptable.app/"
         repo="https://github.com/Quinten97/Chat-app"
