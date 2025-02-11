@@ -9,8 +9,15 @@ const Portfolio = () => (
       you have any questions, feel free to contact me and I'd be delighted to
       provide additional information.
     </p>
-    {/* Show a project component below */}
     <div className="projects-container">
+      <Project
+        title="Chatter Ai"
+        htt
+        img="https://i.imgur.com/LZt0Lr0.png"
+        description="A PWA chatbot integrating ollama for locally hosted ai conversations."
+        preview="https://ai-chatter.netlify.app/"
+        repo="https://github.com/Quinten97/Chatter"
+      />
       <Project
         title="Tiny Components"
         img="https://user-images.githubusercontent.com/89324378/236610468-bd1a7c41-3540-44ee-829c-a3b848dfc56f.svg"
@@ -35,7 +42,7 @@ const Portfolio = () => (
       <Project
         title="Simple Chat"
         img="https://i.imgur.com/4PCSpJj.png"
-        description="A simple chat application."
+        description="A simple chat application using web sockets."
         preview="https://simplechat.adaptable.app/"
         repo="https://github.com/Quinten97/Chat-app"
       />

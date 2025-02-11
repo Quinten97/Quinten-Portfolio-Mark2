@@ -5,12 +5,10 @@ import profile from "./profile.png";
 const Introduction = () => (
   <section id="intro">
     <div>
-      {/* TODO: Give this a big & strong look */}
       <div className="intro-container">
         <div className="greeting">
           <h1>Hi! my name is</h1>
         </div>
-        {/* TODO: Give the name some swag */}
         <div className="logo-container">
           <img className="head-picture" src="https://i.imgur.com/j55UPNh.png" />
           <span className="name">
@@ -21,13 +19,15 @@ const Introduction = () => (
       <br />
       <p className="type-writer">
         <TypeWriter typing={2.5}>
-          I am a software developer based in Atlanta, Georgia. I love building
-          software using cutting-edge technologies and with best practices and
-          paradigms in the fore-front.
+          I'm a passionate software developer based in South Atlanta, with a
+          strong love for building innovative software solutions, automating
+          tedious tasks, and creating dynamic web experiences. Whether it's
+          streamlining workflows, optimizing performance, or crafting
+          user-friendly websites, I enjoy tackling challenges and bringing ideas
+          to life through code.
         </TypeWriter>
       </p>
     </div>
-    {/* TODO: make them pretty */}
     <div className="buttons-container">
       <a href="#portfolio" className=" btn primary">
         My Portfolio
