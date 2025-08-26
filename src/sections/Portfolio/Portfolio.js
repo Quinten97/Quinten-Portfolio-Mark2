@@ -11,6 +11,27 @@ const Portfolio = () => (
     </p>
     <div className="projects-container">
       <Project
+        title="NetScuffed"
+        img="https://raw.githubusercontent.com/Quinten97/NetScuffed/main/images/LLDP.png"
+        description="Network diagnostics tool meant to replicate the core functionality of a NetScout"
+        preview="https://github.com/Quinten97/NetScuffed"
+        repo="https://github.com/Quinten97/NetScuffed"
+      />
+      <Project
+        title="OpenClip"
+        img="https://raw.githubusercontent.com/Quinten97/Open-Clip/refs/heads/main/OpenClip%20Logo.png"
+        description="AI powered powershell script for automatically clipping long form content into short form content."
+        preview="https://drive.google.com/drive/folders/1G1KB0cb561VgCHTXeRaEd6J0q0J4lIIm?usp=drive_link"
+        repo="https://github.com/Quinten97/Open-Clip"
+      />
+      <Project
+        title="ConjureCast"
+        img="https://conjurecast.net/ConjurecastLogo.svg"
+        description="Website built for the popular D&D podcast ConjureCast."
+        preview="https://conjurecast.net"
+        repo="https://github.com/Quinten97/conjurecast"
+      />
+      <Project
         title="Chatter Ai"
         htt
         img="https://i.imgur.com/LZt0Lr0.png"
@@ -26,6 +47,13 @@ const Portfolio = () => (
         repo="https://github.com/Quinten97/TinyComponents"
       />
       <Project
+        title="Spaceship Clicker"
+        img="https://i.imgur.com/PIPIUME.jpg"
+        description="An idle clicker game programmed in React."
+        preview="https://rocketship-clicker.netlify.app/"
+        repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
+      />
+      <Project
         title="Monthly Global Land-Surface Temp"
         img="https://i.imgur.com/w3pPcd8.jpg"
         description="A heatmap made with d3.js"
@@ -33,25 +61,11 @@ const Portfolio = () => (
         repo="https://github.com/Quinten97/D3-Heatmap-FCCProject"
       />
       <Project
-        title="Helpdesk Ticketing API"
-        img="https://i.imgur.com/FNOs1xC.png"
-        description="A simple API for helpdesk"
-        preview="https://favoritecomputertech.netlify.app/"
-        repo="https://github.com/Quinten97/Ticketing-System-API"
-      />
-      <Project
         title="Simple Chat"
         img="https://i.imgur.com/4PCSpJj.png"
         description="A simple chat application using web sockets."
         preview="https://simplechat.adaptable.app/"
         repo="https://github.com/Quinten97/Chat-app"
-      />
-      <Project
-        title="Spaceship Clicker"
-        img="https://i.imgur.com/PIPIUME.jpg"
-        description="An idle clicker game programmed in React."
-        preview="https://rocketship-clicker.netlify.app/"
-        repo="https://github.com/Quinten97/Space-Clicker-ReactGame"
       />
     </div>
   </section>
